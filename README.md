@@ -15,19 +15,19 @@ This project helps you capture, filter, and analyze network traffic using Python
 Ensure you have Python installed (3.8+). Then, install dependencies:  
 ```bash
 pip install scapy pyshark
-
+```
 ##  🛠️ Usage
 Run the packet sniffer:
 ```bash
 python basic.py
-
-##📊 Sample Output
+```
+## 📊 Sample Output
 ```nginx
 IP Packet: 192.168.1.10 -> 8.8.8.8 | Protocol: UDP
 DNS Request: google.com
 Potential brute-force attack detected from 192.168.1.5
-
-##📖 Learning Outcomes
+```
+## 📖 Learning Outcomes
 ✅ Understand networking fundamentals (OSI model, protocols, packets)
 ✅ Gain hands-on experience with network monitoring
 ✅ Learn how attackers exploit network vulnerabilities
@@ -35,3 +35,5 @@ Potential brute-force attack detected from 192.168.1.5
 ##🤝 Contributing
 Feel free to fork this repo and submit PRs for improvements!
 
+## 📄 License
+This project is licensed under the MIT License.
